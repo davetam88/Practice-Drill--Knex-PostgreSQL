@@ -1,38 +1,44 @@
-# Express Boilerplate!
+## >> Project Name:
 
-This is a boilerplate project used for starting new projects!
+Practice-Drill--Knex-PostgreSQL
 
-## Set up
+## >> Project Summary:
 
-Complete the following steps to start a new project (NEW-PROJECT-NAME):
+This project requires us to set up a comprehensive SQL database development environment using [postgreSQL](https://www.postgresql.org/) and KNEX, a SQL query builder library.
 
-1. Clone this repository to your local machine 
-   git clone BOILERPLATE-URL NEW-PROJECTS-NAME
-2. `cd` into the cloned repository
-3. Make a fresh start of the git history for this project with 
-   rm -rf .git && git init
-4. Install the node dependencies 
-   npm install
-5. Move the example Environment file to `.env` that will be ignored by git and read by the express server 
-   mv example.env .env
-6. Edit the contents of the `package.json` to use NEW-PROJECT-NAME instead of `"name": "express-boilerplate",`
+The toolsets provided by PostgreSQL and  [Dbeaver](https://dbeaver.io), a DB GUI client was used to set up multiple databases.
 
-## Scripts
+These tools were also used to query the database using some of the basic SQL syntax such as ```SELECT, WHERE, LIKE, ILIKE, LIMIT, OFFSET, now(), count(), GROUP BY, ORDER BY , ASC, DESC.```
 
-Start the application 
-  npm start
+The project also requires us to construct a set of SQL queries  programmatically with the use of the KNEX API library 
 
-Start nodemon for the application 
-  npm run dev
 
-Run the tests 
-  npm test
+## >> Screenshots
 
-## Deploying
+Dbeaver SQL table query
+![main page](images/main.jpg)
 
-When your new project is ready for deployment, add a new Heroku application with 
-  heroku create
-This will make a new git remote called "heroku" and you can then 
-  npm run deploy
-which will push to this remote's main branch.
+## >> Technologies used in this APP:
+
+```
+* Knex
+* Knex's Promise-like object/syntax
+* SQL queries
+* Query builder
+* Node
+* doenv 
+* DBeaver 
+* Javascript
+```
+
+Postgres commands used(partial list)
+```
+psql 
+pg_ctl
+createuse
+createdb
+```
+-> Tools
+* VSC Debugger
+
 
